@@ -1,0 +1,17 @@
+<html><head>
+    <title>Ask SammySlugBot about UCSC Programs</title>
+</head><body>
+    <h2>Ask SammySlugBot about UCSC Programs</h2>
+    <form method="post">
+      Your question:
+      <br/>
+      <input type=text name=problem size=60 
+          placeholder='Ask your question in plain English....' />
+      <br/><br/>
+      <input type=submit value='Ask question'>
+    </form>
+  You can also text 877-830-6766 with "slugbot" followed by your question.
+  <br/><br/>
+  There are currently {{ vectordb.count() }} web pages embedded in the 
+  vector database for retrieval augmented generation.
+</body></html>
