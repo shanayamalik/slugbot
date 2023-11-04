@@ -14,15 +14,15 @@ To set up SlugBot on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-git clone https://github.com/shanayamalik/slugbot.git
+   git clone https://github.com/shanayamalik/slugbot.git
 
 2. Navigate to the cloned directory:
    ```bash
-cd slugbot
+   cd slugbot
 
 3. Run the Python server:
    ```bash
-python main.py
+   python main.py
 
 4. Open your web browser and navigate to:
    ```bash
